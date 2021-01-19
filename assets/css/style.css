@@ -264,7 +264,7 @@ h5 {
   transition: all 0.5s;
 }
 #subscribe-button:hover {
-  background-image: linear-gradient(to right, #ff3571, blue)
+  background-image: linear-gradient(to right, #ff3571, #3C30FF)
 }
 /* Last p with Heart icon  */
 footer>p {
@@ -287,6 +287,6 @@ footer>p img {
 }
 
 #return-button:hover {
-  background-image: linear-gradient(to right, #ff3571, blue)
+  background-image: linear-gradient(to right, #ff3571, #3C30FF)
 }
 
