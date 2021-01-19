@@ -11,7 +11,7 @@ body {
 }
 
 /****************************************************************
-    HEADER TAG CSS CODES
+      HEADER TAG CSS CODES
 ****************************************************************/
 
 header {
@@ -24,18 +24,20 @@ header div:first-of-type {
   margin-bottom: 100px;
 }
 header span img{
-  width: 30px;
+  width: 40px;
 }
 header div:first-of-type{
   display: inline-block;
 }
 header div:first-of-type p:first-of-type {
-  font-size: 1.2rem;
+  font-size: 1.8rem;
   font-weight: bold;
   margin: 0;
   padding-left: 15px;
+  line-height: 15px;
 }
 header div:first-of-type p:nth-of-type(2){
+  font-size: .7rem;
   margin: 0;
   padding-left: 15px;
 }
@@ -112,7 +114,7 @@ main section:nth-of-type(2) p {
 }
 
 /****************************************************************
-  Main After Several Weeks Section and Icons
+      Main After Several Weeks Section and Icons
 ****************************************************************/
 
 main section:nth-of-type(3) h2{
@@ -148,7 +150,7 @@ main section:nth-of-type(3) article>div {
 }
 
 /****************************************************************
-  Main Are You Ready Section
+     Main Are You Ready Section
 ****************************************************************/
 
 /* are you ready headline */
@@ -208,7 +210,7 @@ article.challenges h3 {
 }
 
 /****************************************************************
-  FOOTER TAG CSS CODES
+      FOOTER TAG CSS CODES
 ****************************************************************/
 footer section {
   margin-bottom: 150px;
@@ -230,7 +232,7 @@ form {
   margin: 100px auto;
   text-align: center;
 }
-form input {
+form input#email {
   border: none;
   border-radius: 5px;
   text-align: center;
@@ -241,16 +243,29 @@ form input {
   box-shadow: 0 0 100px 2px #00000020;
   margin-bottom: 30px;
 }
+/* Attention text  */
+h5 {
+  color: red;
+  font-size: .7rem;
+  margin: 0;
+  padding: 0;
+  display: none;
+}
 
-form a {
+/* Subscribe Button  */
+#subscribe-button {
+  border: none;
   font-size: 1rem;
-  text-decoration: none;
   color: #fff;
   background-color: #ff3571;
   padding: 15px 75px;
   border-radius: 5px;
+  outline: none;
+  transition: all 0.5s;
 }
-
+#subscribe-button:hover {
+  background-image: linear-gradient(to right, #ff3571, blue)
+}
 /* Last p with Heart icon  */
 footer>p {
   padding: 0;
@@ -259,3 +274,19 @@ footer>p {
 footer>p img {
   width: 20px;
 }
+
+/* RETURN SITE BUTTON  */
+
+#return-button {
+  color: #fff;
+  border: none;
+  outline: none;
+  background-color: #ff3571;
+  padding: 20px;
+  border-radius:5px;
+}
+
+#return-button:hover {
+  background-image: linear-gradient(to right, #ff3571, blue)
+}
+

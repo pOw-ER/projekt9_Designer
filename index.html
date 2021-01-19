@@ -134,17 +134,19 @@
 
   <!-- FOOTER TAG  -->
   <footer>
-    <section>
+    <section id="subscribe-section">
       <h2>Do you like this challenge?</h2>
       <p>Subscribe to be the first to hear about updates, tips and recommendations!</p>
       <!-- SUBSCRIBE FORM  -->
       <form action="">
-        <input type="email" name="email" id="email" placeholder="Write your email here"><br>
-        <a href="">Subscribe</a>
+        <input type="email" name="email" id="email" placeholder="Write your email here" required><br>
+        <h5 id="attention">*Bitte geben Sie Ihre Email an</h5>
+        <input type="button" id="subscribe-button" value="Subscribe" onClick="confirmFunction()">
       </form>
     </section>
-    <p>Created with Love by a Webdesigner <span><img src="./assets/img/love.png" alt=""></span></p>
+    <p>Created with Love by a Webdesigner<span><img src="./assets/img/love.png" alt="Heart"></span></p>
   </footer>
+
   <script src="assets/js/main.js"></script>
 </body>
 
