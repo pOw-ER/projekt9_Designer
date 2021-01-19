@@ -1,0 +1,261 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+
+/****************************************************************
+      DEFAULT CSS CODES
+****************************************************************/
+
+body {
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+  font-size: 10px;
+}
+
+/****************************************************************
+    HEADER TAG CSS CODES
+****************************************************************/
+
+header {
+  padding: 30px 50px;
+  background: url('../img/ilustracion_people.png') right top/50% no-repeat, url('../img/ilustracion1.png') right top/50% no-repeat #ffffff20;
+}
+
+/* Brand LOGO  */
+header div:first-of-type {
+  margin-bottom: 100px;
+}
+header span img{
+  width: 30px;
+}
+header div:first-of-type{
+  display: inline-block;
+}
+header div:first-of-type p:first-of-type {
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin: 0;
+  padding-left: 15px;
+}
+header div:first-of-type p:nth-of-type(2){
+  margin: 0;
+  padding-left: 15px;
+}
+
+
+/* Header Title */
+header h1 {
+  width: 50%;
+  margin-left: 100px;
+  margin-top: 100px;
+  font-size: 4rem;
+}
+/* Header Parapraph and Rocket Icon */
+header>p:first-of-type {
+  width: 50%;
+  margin-left: 100px;
+  margin-bottom: 100px;
+  font-size: 1.5rem;
+}
+
+header>p:first-of-type span img{
+  width: 30px;
+  padding-left: 10px;
+}
+
+/* Scroll see more */
+header>p:nth-of-type(2) {
+  margin-left: 100px;
+  margin-bottom: 100px;
+  font-size: .8rem;
+  color: #ff3571;
+  font-weight: bold;
+}
+
+/****************************************************************
+    MAIN TAG CSS CODES
+****************************************************************/
+section:not(:first-of-type){
+  padding: 100px 150px;
+}
+
+/****************************************************************
+    Main Big Image Section
+****************************************************************/
+
+main section:nth-of-type(1) img {
+  width: 100%;
+}
+
+/****************************************************************
+    Main Every Idea Section and Licht Icon
+****************************************************************/
+main section:nth-of-type(2){
+  margin-top: 150px;
+}
+main section:nth-of-type(2) h2{
+  font-size: 3.4rem;
+  margin-top: 0px;
+  width: 30%;
+  display:inline-block;
+}
+main section:nth-of-type(2) h2 img {
+  width: 40px;
+}
+
+main section:nth-of-type(2) p {
+  display:inline-block;
+  font-size: 1.2rem;
+  width:55%;
+  line-height:30px;
+  margin-left: 100px;
+  margin-bottom: 0;
+  margin-top: 0;
+}
+
+/****************************************************************
+  Main After Several Weeks Section and Icons
+****************************************************************/
+
+main section:nth-of-type(3) h2{
+  font-size: 3.4rem;
+  width: 60%;
+}
+
+/* Icons */
+main section:nth-of-type(3) article span img {
+  width: 30px;
+}
+
+/* Main article section with 4 Articles  */
+main section:nth-of-type(3) article{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-top: 150px;
+}
+main section:nth-of-type(3) article>div {
+  width: 35%;
+}
+
+.articles {
+  display: flex;
+  margin-bottom: 50px;
+}
+.articles h3,p {
+  font-size: 1rem;
+  padding-left: 25px;
+  margin: 0;
+  line-height: 30px;
+}
+
+/****************************************************************
+  Main Are You Ready Section
+****************************************************************/
+
+/* are you ready headline */
+main section:nth-of-type(4) h2{
+  font-size: 3.4rem;
+  text-align: center;
+}
+
+main section:nth-of-type(4)>p {
+  text-align: center;
+  font-size: 1.4rem;
+  width: 70%;
+  margin: 0 auto;
+}
+/* Are You Ready Section with 4 Challenge Steps */
+article.challenges {
+  margin: 150px 0px;
+}
+/* backgrund images */
+article.challenges:nth-of-type(1) {
+  background: url('../img/step01.png') left/contain no-repeat;
+}
+article.challenges:nth-of-type(2) {
+  background: url('../img/step02.png') right/contain no-repeat;
+}
+article.challenges:nth-of-type(3) {
+  background: url('../img/step03.png') left/contain no-repeat;
+}
+article.challenges:nth-of-type(4) {
+  background: url('../img/step04.png') right/contain no-repeat;
+}
+
+/* DIVS von Right and Left Article Areas  */
+article.challenges div.right {
+  width: 45%;
+  margin-left: auto;
+}
+article.challenges div.left {
+  width:45%;
+}
+
+article.challenges h2 {
+  color: #00000040;
+}
+article.challenges div.right h2 {
+  text-align: left;
+}
+article.challenges div.left h2 {
+  text-align: left;
+}
+
+article.challenges p {
+  padding: 0;
+}
+article.challenges h3 {
+  font-size: 1rem;
+}
+
+/****************************************************************
+  FOOTER TAG CSS CODES
+****************************************************************/
+footer section {
+  margin-bottom: 150px;
+}
+
+footer h2 {
+  text-align: center;
+  font-size: 3.4rem;
+}
+
+footer section p {
+  text-align: center;
+  font-size: 1.5rem;
+}
+
+/* Subscribe Form  */
+form {
+  width: 50%;
+  margin: 100px auto;
+  text-align: center;
+}
+form input {
+  border: none;
+  border-radius: 5px;
+  text-align: center;
+  width: 80%;
+  padding: 20px 20px;
+  outline:none;
+  font-size: 1.5rem;
+  box-shadow: 0 0 100px 2px #00000020;
+  margin-bottom: 30px;
+}
+
+form a {
+  font-size: 1rem;
+  text-decoration: none;
+  color: #fff;
+  background-color: #ff3571;
+  padding: 15px 75px;
+  border-radius: 5px;
+}
+
+/* Last p with Heart icon  */
+footer>p {
+  padding: 0;
+  margin-left: 150px;
+}
+footer>p img {
+  width: 20px;
+}
